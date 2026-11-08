@@ -1,0 +1,14 @@
+{
+  "name": "ini-parse-core",
+  "version": "0.1.0",
+  "description": "INI parse and serialize: sections, key=value, comments, duplicate-key rejection. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/ini.test.js",
+    "demo": "node bin/ini.mjs --assert"
+  }
+}
